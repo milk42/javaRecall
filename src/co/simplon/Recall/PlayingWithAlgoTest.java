@@ -7,7 +7,7 @@ import java.util.HashMap;
 import org.junit.Test;
 
 public class PlayingWithAlgoTest {
-	static PlayingWithAlgo playing;
+	
 
 	@Test
 	public void helloWorld() {
