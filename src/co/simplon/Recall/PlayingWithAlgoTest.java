@@ -10,7 +10,7 @@ public class PlayingWithAlgoTest {
 	
 
 	@Test
-	public void helloWorld() {
+	public void helloWorld() { 
 		// TODO Auto-generated method stub
 		assertEquals("Hello World",PlayingWithAlgo.helloWorld(""));
 		assertEquals("Hello Manu",PlayingWithAlgo.helloWorld("Manu"));
@@ -21,7 +21,7 @@ public class PlayingWithAlgoTest {
 	 * selects elements starting with a
 	 */
 	@Test
-	public void selectElementsStartingWithA() {
+	public void selectElementsStartingWithA() { 
 		String arrayIn[] = { "bananas", "apples", "pears", "avocados" };
 		ArrayList<String> resultat = new ArrayList<String>();
 		resultat.add("apples");
@@ -34,7 +34,7 @@ public class PlayingWithAlgoTest {
 	 * selects elements starting with a vowel
 	 */
 	@Test
-	public void selectElementsStartingWithVowel() {
+	public void selectElementsStartingWithVowel() { 
 		String arrayIn[] = { "john", "david", "omar", "fred", null, "idris", "angela" };
 		ArrayList<String> resultat = new ArrayList<String>();
 		resultat.add("omar");
